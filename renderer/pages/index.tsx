@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
+import Calendar from "@/components/calendar";
 
 function Home() {
     return (
@@ -17,6 +18,9 @@ function Home() {
                 <span>tailwindcss</span>
                 <span>=</span>
                 <span>💕 </span>
+            </div>
+            <div>
+                <Calendar></Calendar>
             </div>
             <div className="mt-1 flex w-full flex-wrap justify-center">
                 <Link href="/settings">
